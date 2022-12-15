@@ -496,4 +496,38 @@ p {
 .service-text {
   font-size: 38px;
   line-height: 44px;
+}
+
+.join-container {
+  width: 1400px;
+  padding: 0;
+  margin: 0 auto;
+  border-radius: 16px;
+  background-color: var(--brown);
+  color: rgb(241, 241, 235);
+  padding-top: 84px;
+  padding-left: 60px;
+  padding-bottom: 110px;
+}
+
+.join-title {
+  font-size: 80px;
+  line-height: 100px;
+  margin-bottom: 45px;
+}
+
+.join-text {
+  font-size: 26px;
+  line-height: 36px;
+}
+
+.join-ques {
+  margin-top: 84px;
+  font-size: 80px;
+  line-height: 100px;
+  margin-bottom: 68px;
+}
+
+.join-link {
+  padding-right: 18px;
 }/*# sourceMappingURL=main.css.map */
