@@ -1,0 +1,45 @@
+.service {
+    margin-top: 100px;
+}
+
+.service-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 90px;
+    &:first-child{
+        .service-text{
+            width: 601px;
+            margin-bottom: 56px;
+            margin-top: -15px;
+        }
+        .service-img{
+            margin-right: 100px;
+        }
+        .service-link{
+            padding-right: 17px;
+        }
+    }
+    &:nth-child(2){
+        flex-direction: row-reverse;
+        .service-text{
+            width: 528px;
+            margin-bottom: 55px;
+            margin-top: -15px;
+        }
+        .service-img{
+            margin-left: 202px;
+        }
+        
+    }
+}
+
+.service-img {
+    width: 590px;
+    height: 886px;
+    border-radius: 16px;
+}
+
+.service-text {
+    font-size: 38px;
+    line-height: 44px;
+}

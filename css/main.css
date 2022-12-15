@@ -453,4 +453,47 @@ p {
 
 .intro-link {
   margin-left: 40px;
+}
+
+.service {
+  margin-top: 100px;
+}
+
+.service-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 90px;
+}
+.service-item:first-child .service-text {
+  width: 601px;
+  margin-bottom: 56px;
+  margin-top: -15px;
+}
+.service-item:first-child .service-img {
+  margin-right: 100px;
+}
+.service-item:first-child .service-link {
+  padding-right: 17px;
+}
+.service-item:nth-child(2) {
+  flex-direction: row-reverse;
+}
+.service-item:nth-child(2) .service-text {
+  width: 528px;
+  margin-bottom: 55px;
+  margin-top: -15px;
+}
+.service-item:nth-child(2) .service-img {
+  margin-left: 202px;
+}
+
+.service-img {
+  width: 590px;
+  height: 886px;
+  border-radius: 16px;
+}
+
+.service-text {
+  font-size: 38px;
+  line-height: 44px;
 }/*# sourceMappingURL=main.css.map */
